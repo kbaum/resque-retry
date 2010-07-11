@@ -1,5 +1,5 @@
 spec = Gem::Specification.new do |s|
-  s.name              = 'resque-retry'
+  s.name              = 'kbaum-resque-retry'
   s.version           = '0.0.5'
   s.date              = Time.now.strftime('%Y-%m-%d')
   s.summary           = 'A resque plugin; provides retry, delay and exponential backoff support for resque jobs.'
