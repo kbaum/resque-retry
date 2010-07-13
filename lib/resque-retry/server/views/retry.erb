@@ -32,7 +32,7 @@
         <% if job && delayed_timestamp_size == 1 %>
           <%= h(job['class']) %>
         <% else %>
-          <a href="<%= url "delayed/#{timestamp}" %>">see details</a>
+          <a href="<%= url "retry/#{timestamp}" %>">see details</a>
         <% end %>
       </td>
       <td><%= h(job['args'].inspect) if job && delayed_timestamp_size == 1 %></td>
